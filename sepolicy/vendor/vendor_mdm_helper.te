@@ -1,2 +1,3 @@
 get_prop(vendor_mdm_helper, vendor_mdm_helper_prop)
 set_prop(vendor_mdm_helper, vendor_mdm_helper_prop)
+allow vendor_mdm_helper vendor_tombstone_data_file:file rw_file_perms;
